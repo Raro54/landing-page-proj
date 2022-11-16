@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background: #1f2937;
+    height: 12.5vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul li a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.section-1{
+    background: #1f2937;
+    height: 37.5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+
+
+.content-left{
+    flex-basis: 500px
+    
+}
+
+.content-right img{
+    height: 200px;
+    width: 400px;
+}
+    
+
+.hero-text{
+    color: #f9faf8;
+    font-size: 18px; 
+}
+
+.signup-b{
+    padding: 4px 7px;
+    margin-top: 5px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.section-2{
+    background: #f9faf8;;
+    height: 50vh;
+}
